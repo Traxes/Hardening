@@ -4,99 +4,84 @@ height="1.6181102362204725in"}
 Table of Content {#table-of-content .ListParagraph .berschriftInhalt-ERNW}
 ================
 
-[1 Introduction 4](#introduction)
+[Introduction](#introduction)
 
-[2 Authentication 5](#authentication)
+[Authentication](#authentication)
 
-[2.1 Disable Auto-login 5](#disable-auto-login)
+[Disable Auto-login](#disable-auto-login)
 
-[2.2 Enable Single User Mode Authentication
-5](#enable-single-user-mode-authentication)
+[Enable Single User Mode Authentication](#enable-single-user-mode-authentication)
 
-[2.3 Require Username and Password for Login
-5](#require-username-and-password-for-login)
+[Require Username and Password for Login](#require-username-and-password-for-login)
 
-[2.4 Disable Password Hints 5](#disable-password-hints)
+[Disable Password Hints](#disable-password-hints)
 
-[2.5 Set Screensaver Inactivity Interval
-5](#set-screensaver-inactivity-interval)
+[Set Screensaver Inactivity Interval](#set-screensaver-inactivity-interval)
 
-[2.6 Require Password to Unlock Screensaver
-5](#require-password-to-unlock-screensaver)
+[Require Password to Unlock Screensaver](#require-password-to-unlock-screensaver)
 
-[2.7 Restrict sudo Configuration 6](#restrict-sudo-configuration)
+[Restrict sudo Configuration](#restrict-sudo-configuration)
 
-[2.8 Disable Unauthorized Administrative Access for Sessions Locked
-Through Screensaver
-6](#disable-unauthorized-administrative-access-for-sessions-locked-through-screensaver)
+[Disable Unauthorized Administrative Access for Sessions Locked
+Through Screensaver](#disable-unauthorized-administrative-access-for-sessions-locked-through-screensaver)
 
-[3 System Security 7](#system-security)
+[System Security](#system-security)
 
-[3.1 Automativally Lock Login Keychain
-7](#automativally-lock-login-keychain)
+[Automativally Lock Login Keychain](#automativally-lock-login-keychain)
 
-[3.2 Change Initial Password for Login Keychain
-7](#change-initial-password-for-login-keychain)
+[Change Initial Password for Login Keychain](#change-initial-password-for-login-keychain)
 
-[3.3 Enable Automatic Updates 7](#enable-automatic-updates)
+[Enable Automatic Updates](#enable-automatic-updates)
 
-[3.4 Disable Guest Access 7](#disable-guest-access)
+[Disable Guest Access](#disable-guest-access)
 
-[3.5 Enable Gatekeeper 7](#enable-gatekeeper)
+[Enable Gatekeeper](#enable-gatekeeper)
 
-[3.6 Set EFI Password 8](#set-efi-password)
+[Set EFI Password](#set-efi-password)
 
-[3.7 Disable Core Dumps 8](#disable-core-dumps)
+[Disable Core Dumps](#disable-core-dumps)
 
-[3.8 Prevent Safari from Opening Known File Types
-8](#prevent-safari-from-opening-known-file-types)
+[Prevent Safari from Opening Known File Types](#prevent-safari-from-opening-known-file-types)
 
 [3.9 Set Strict Global umask 8](#set-strict-global-umask)
 
-[3.10 Set Strict Home Directory Permissions
-8](#set-strict-home-directory-permissions)
+[3.10 Set Strict Home Directory Permissions](#set-strict-home-directory-permissions)
 
-[3.11 Enable Secure Erase of Deleted Files in Trash 8](#_Toc363064718)
+[Enable Secure Erase of Deleted Files in Trash](#_Toc363064718)
 
-[3.12 Implement Hard Disk Encryption 9](#implement-hard-disk-encryption)
+[Implement Hard Disk Encryption](#implement-hard-disk-encryption)
 
-[4 Network Security 10](#network-security)
+[Network Security](#network-security)
 
-[4.1 Disable Apple File Protocol (AFP)
-10](#disable-apple-file-protocol-afp)
+[Disable Apple File Protocol (AFP)](#disable-apple-file-protocol-afp)
 
-[4.2 Disable File Transfer Protocol (FTP) daemon
-10](#disable-file-transfer-protocol-ftp-daemon)
+[Disable File Transfer Protocol (FTP) daemon](#disable-file-transfer-protocol-ftp-daemon)
 
-[4.3 Disable File Sharing 10](#disable-file-sharing)
+[Disable File Sharing](#disable-file-sharing)
 
-[4.4 Disable Printer Sharing 10](#disable-printer-sharing)
+[Disable Printer Sharing](#disable-printer-sharing)
 
-[4.5 Disable Additional and Unnecessary Services
-10](#disable-additional-and-unnecessary-services)
+[Disable Additional and Unnecessary Services](#disable-additional-and-unnecessary-services)
 
-[4.6 Set Hardened TCP/IP Kernel Parameters
-11](#set-hardened-tcpip-kernel-parameters)
+[Set Hardened TCP/IP Kernel Parameters](#set-hardened-tcpip-kernel-parameters)
 
-[4.7 Enable Network Time Synchronization via NTP
-11](#enable-network-time-synchronization-via-ntp)
+[Enable Network Time Synchronization via NTP](#enable-network-time-synchronization-via-ntp)
 
-[4.8 Disable Bluetooth 11](#disable-bluetooth)
+[Disable Bluetooth](#disable-bluetooth)
 
-[4.9 Disable Location Services 11](#disable-location-services)
+[Disable Location Services](#disable-location-services)
 
-[4.10 Enable Firewall 11](#enable-firewall)
+[Enable Firewall](#enable-firewall)
 
-[4.11 Disable Wake-on-LAN 12](#disable-wake-on-lan)
+[Disable Wake-on-LAN](#disable-wake-on-lan)
 
-[4.12 Limit IPv6 to Local Subnet/Disable IPv6
-12](#limit-ipv6-to-local-subnetdisable-ipv6)
+[Limit IPv6 to Local Subnet/Disable IPv6](#limit-ipv6-to-local-subnetdisable-ipv6)
 
-[5 Logging & Monitoring 13](#logging-monitoring)
+[Logging & Monitoring](#logging-monitoring)
 
-[5.1 Enable BSM Audit 13](#enable-bsm-audit)
+[Enable BSM Audit](#enable-bsm-audit)
 
-[6 Apendix: List of Services 14](#apendix-list-of-services)
+[Apendix: List of Services](#apendix-list-of-services)
 
 Introduction
 ============
